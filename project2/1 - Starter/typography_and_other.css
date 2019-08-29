@@ -1,0 +1,72 @@
+body, button, input {
+    font-family: 'Prompt', sans-serif;
+}
+html{
+    font-size: 1vw;
+}
+html, body, ul, li, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+a{ 
+    text-decoration: none;
+}
+ul, li, a{ 
+    display: inline-block;
+    padding: 0;
+}
+a:visited a{
+    color: inherit;
+}
+input, button{ border: none; outline: none;}
+
+/* font-sizes */
+h1{
+    font-size: calc(2.5rem + 26px);
+}
+h2{
+    font-size: calc(2rem + 21px);
+}
+h3{
+    font-size: calc(1.6rem + 17px);
+}
+h4, i, li{
+    font-size: calc(.7rem + 7px);
+}
+h5, .price{
+    font-size: calc(.6rem + 6.3px);
+}
+h6{
+    font-size: calc(.48rem + 5px);
+}
+button, input, label, p, a, span{
+    font-size: calc(.54rem + 5.6px);
+}
+small{
+    font-size: calc(.4rem + 5.6px);
+}
+
+/* font wieght */
+.extra-light-weight{
+    font-weight: 200;
+}
+.light-weight{
+    font-weight: 300;
+}
+.medium-weight{
+    font-weight: 500;
+}
+bold-weight{
+    font-weight: 700;
+}
+
+/* colors */
+.blue{ color: #0000EE;}
+.light-grey{ color: #078787;}
+.dark-grey{ color: #626262;}
+.black{color: #282828;}
+.white{ color: white;}
+
+/* general */
+.align-center{ text-align: center;}
+.max-width-height{ width: 100%; height: 100%;}
+.auto-margin{ margin-left: auto !important; margin-right: auto !important;}

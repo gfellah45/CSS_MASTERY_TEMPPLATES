@@ -1,0 +1,447 @@
+/* utilities */
+body *{
+    font-family: 'Questrial', sans-serif;
+}
+
+body, html, h1, h2, h3, h4, h5, ul{
+    margin: 0px;
+    font-weight: normal;
+}
+html{
+    font-size: 1vw;
+}
+ul{
+    padding: 0;
+}
+.alt-font{
+    font-family: 'Questrial', sans-serif;
+}
+/* container */
+.container{
+    margin-left: 184px !important;
+    margin-right: 184px !important;
+}
+/* navigations */
+#main-navigation ul *{
+    display: inline-block;
+}
+#main-navigation ul{
+    font-size: 0;
+}
+#main-navigation li a{
+    font-size: calc(.7rem + 6px);
+    text-decoration: none;
+    padding: 18px 32px;
+    border-left: 1px solid rgba(40, 58, 215, .1);
+    color: rgba(40, 58, 215, .8);
+}
+#main-navigation li a:hover{
+    background-color: #4252f2;
+    color: white;
+}
+#main-navigation li a.last-nav{
+    border-right: 1px solid rgba(40, 58, 215, .1);
+}
+/* landing area / showcase */
+#landing-section{
+    background-image: url('images/skyline.png');
+    background-size: cover;
+    background-position: center top;
+}
+#landing-section div{
+    padding-bottom: 18em;
+}
+#landing-section *{
+    color: white;
+}
+#landing-section h1{
+    font-size: 5rem;
+    padding-top: 2em;
+}
+#landing-section p{
+    width: calc(30% + 170px );
+    line-height: 150%;
+    font-size: .8rem;
+    font-weight: 300;
+}
+#landing-section button{
+    font-size: 1.4rem;
+    border: none;
+    font-weight: 300;
+    border-radius: 500px;
+    color: #283ad7;
+    background-color: white;
+    padding: .4em 1.8em;
+}
+#landing-section button:hover{
+    opacity: .8;
+}
+/* information section */
+#info-section *{
+    color: #2b39d9;
+}
+#info-section h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: calc(.4rem + 4px);
+    letter-spacing: 1px;
+    margin-top: 10em;
+    opacity: .4;
+}
+#info-section h2{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: calc(.8rem + 8px);
+    font-weight: 300;
+    max-width: 750px;
+    margin: 2px auto 3.5rem;
+}
+#info-section #info-blocks{
+    margin-bottom: 6rem;
+    font-size: 0px;
+}
+#info-section #info-blocks .info-block{
+    width: 33.33%;
+    padding: 2.2rem 1rem;
+    display: inline-block;
+    box-sizing: border-box;
+    background-position: center top;
+    background-size: 16%;
+}
+#info-section #info-blocks .info-block *{
+    text-align: center;
+}
+#info-section #info-blocks .info-block h3{
+    font-size: 1.5rem;
+}
+#info-section #info-blocks .info-block p{
+    font-size: .9rem;
+    line-height: 180%;
+    height: 84px;
+}
+#info-section #info-blocks .info-block a{
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+#info-section #info-blocks #support{
+    background-image: url('images/support.png');
+}
+#info-section #info-blocks #worldwide{
+    background-image: url('images/worldwide.png');
+}
+#info-section #info-blocks #cloud{
+    background-image: url('images/cloud.png');
+}
+/* blogging section */
+#blog-preview{
+    background-image: url('images/office.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    padding-bottom: 8em;
+}
+#blog-preview *{
+    color: white;
+    letter-spacing: 1px;
+}
+#blog-preview h6{
+    padding-top: 9em;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 600; 
+}
+#blog-preview h2{
+    font-size: calc(1.4rem + 14px);
+    padding-top: .5em;
+}
+#blog-preview p{
+    width: calc(16% + 200px);
+    font-size: calc(.4rem + 8px);
+    line-height: 150%;
+    font-weight: 300;
+}
+#blog-preview #read-full{
+    margin-right: 3em;
+    margin-bottom: 1em;
+    font-size: calc(.4rem + 8px);
+    border: none;
+    padding: .5em 1em;
+    border-radius: 500px;
+    background: white;
+    color: #2b39d9;
+    font-weight: 600;
+}
+#blog-preview #see-full-blog{
+    margin-bottom: 2em;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 500px;
+    background: white;
+    color: #2b39d9;
+    font-weight: 600;
+}
+#blog-preview button:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+/* pricing section */
+#pricing-section{
+    font-size: 0px;
+    padding: 4rem 0px 8rem;
+}
+#pricing-section #pricing{
+    width: 55%;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    color: #2b39d9;
+    text-align: center;
+    line-height: -1px;
+}
+#pricing-section #pricing h2{
+    font-size: calc(1rem + 14px);
+    margin-top: 1.5rem;
+    font-weight: 300;
+}
+#pricing-section #pricing h3{
+    font-size: calc(.6rem + 8px);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+#pricing-section #pricing .chart{
+    display: inline-block;
+    border: 1px solid rgba(46, 48, 91, .2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0px .4em;
+    margin: 0px .4em;
+    width: 28%;
+}
+#pricing-section #pricing .chart h5{
+    font-size: calc(.6rem + 6px);
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+#pricing-section #pricing .chart h4{
+    font-size: calc(1rem + 8px);
+    text-transform: uppercase;
+    margin-top: 3em 0px 1.5em;
+}
+#pricing-section #pricing .chart h4 small{
+    font-size: .6em;   
+}
+#pricing-section #pricing .chart h6{
+    font-size: calc(.6rem + 4px);
+    font-weight: 300;
+    border-bottom: 1px solid rgba(43, 57, 217, .15);
+    padding: .4em 0;
+    margin: 0 .2em;
+}
+#pricing-section #pricing .chart h6.hide{
+    color: transparent;
+    border: transparent;
+}
+#pricing-section #pricing .chart button{
+    font-size: calc(.6rem + 4px);
+    font-weight: 300;
+    margin: 4em 0 2em;
+    background-color: #2b39d9;
+    color: white;
+    border: none;
+    border-radius: 500px;
+    padding: .4em 2.8em;
+    outline: none; 
+}
+#pricing-section #pricing .chart button:hover{
+    opacity: .5;
+}
+#pricing-section img{
+    width: 45%;
+    vertical-align: bottom;
+}
+#pricing-section #pricing .chart:hover{
+    background-color: #2b39d9;
+}
+#pricing-section #pricing .chart:hover *{
+    color: white;
+    border-color: rgba(232, 230, 255, .2)
+}
+#pricing-section #pricing .chart:hover button{
+    background-color: white;
+    color: #2b39d9;
+}
+/* testimonial section */
+#testimonials-section{
+    display: block;
+    background-color: #2e305b;
+    text-align: center;
+    padding: 4rem 0;
+    color: white;
+} 
+#testimonials-section h2{
+    font-size: calc(2rem + 12px);
+    font-weight: 300;
+    margin-bottom: 1em; 
+}
+#testimonials-section q{
+    display: block;
+    width: 40%;
+    line-height: 180%;
+    font-size: calc(.4rem + 12px);
+    margin: 0 auto;
+    quotes: none;
+}
+#testimonials-section a{
+    font-size: calc(.6rem + 6px);
+    color: white;
+    text-decoration: none;
+    margin: 1rem 1.1rem 1rem;
+}
+#testimonials-section cite{
+    font-size: calc(.8rem + 10px);
+    font-weight: 300;
+    display: block;
+    text-transform: uppercase;
+    font-style: normal;
+    padding: .2rem 1em 1.2em;
+    width: max-content;
+    margin: 0 auto 2em;
+    border-bottom: 1px solid rgba(232, 230, 255, .2);
+}
+#testimonials-section a:hover{
+    opacity: .8;
+}
+/* news letter */
+#newsletter-section{
+    background-color: #ededed;
+    padding: 3.5rem 0;
+}
+#newsletter-section div{
+    width: max-content;
+    margin: 0 auto;
+}
+#newsletter-section h2{
+    display: inline-block;
+    font-size: calc(1rem + 12px);
+    font-weight: 300;
+    margin-right: 2em;
+}
+#newsletter-section form{
+    display: inline-block;
+}
+#newsletter-section input{
+    padding: .3em .6em;
+    font-size: calc(.6rem + 8px);
+    outline: none;
+}
+#newsletter-section input[type="submit"]{
+    padding: .3em 2em;
+    background-color: #2f3149;
+    color: white;
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 5px;
+}
+#newsletter-section input::placeholder{
+    color: #2f3149;
+}
+#newsletter-section #email{
+    border: 1px solid #2f3139;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 12vw; 
+}
+#newsletter-section input[type="submit"]:hover{
+    background-color: transparent;
+    color: #2f3139;
+    font-weight: 600;
+}
+/* footer section */
+#footer-section{
+    background-color: #2f3149;
+    padding: 3rem 0;
+}
+#footer-section .container{
+    font-size: 0px;
+}
+#footer-section #branding{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40%;
+    text-align: center;
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+    padding: 3rem 0 4rem;
+}
+#footer-section #branding h3{
+    font-size: calc(1.2rem + 12px);
+}
+#footer-section #branding p{
+    width: 76%;
+    margin: 2em auto 0;
+    font-size: calc(.4rem + 8px);
+    line-height: 160%;
+    font-weight: 300;
+}
+#footer-section #branding .alt-font{
+    font-size: calc(.4rem + 10px);
+    margin-top: 2em;
+}
+#footer-section #links{
+    display: inline-block;
+    width: 60%;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 1.6rem 6rem;
+    color: white;
+}
+#footer-section #links h3{
+    font-size: calc(1.2rem + 8px);
+    font-weight: 300;
+    padding-top: 4px;
+    padding-left: 1rem;
+}
+#footer-section #links #social-icons{
+    background-color: white;
+    display: inline-block;
+    padding: .1rem .6rem;
+    margin-bottom: 2.4rem;
+    border-radius: 500px;
+}
+#footer-section #links #social-icons img{
+    width: 2.2rem;
+    padding: .4rem;
+}
+#footer-section #links #social-icons img:hover{
+    width: 2.4rem;
+}
+#footer-section #links nav{
+    padding-left: 1rem;
+}
+#footer-section #links ul {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+}
+#footer-section #links ul h6{
+    font-size: calc(.4rem + 8px);
+    color: white;
+    font-weight: 700;
+    margin-bottom: .4rem;
+}
+#footer-section #links ul a{
+    font-size: calc(.4rem + 8px);
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: .2em;
+}
+
+#footer-section #links ul a:hover{
+    opacity: .4;
+}
+
